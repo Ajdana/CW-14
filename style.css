@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(201, 230, 255);
+}
+
+.container {
+    background-color: white;
+    padding: 50px 40px;
+    margin: 50px auto;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.326);
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+}
+
+.container, .headings {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: rgb(2, 0, 59);
+    line-height: 0.8;
+}
+
+span {
+    font-size: smaller;
+}
+
+.Add {
+    background-color: rgb(107, 107, 253);
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 5px blue;
+}
+
+.cart {
+    background-color: transparent;
+    width: 145px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+}
+
+.wishlist {
+    background-color: transparent;
+    width: 145px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+}
+
+.noisy {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgb(2, 0, 59);
+    width: 95px;
+    height: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+ul {
+    color: rgb(2, 0, 59);
+}
+
+li::marker {
+    color: rgb(0, 255, 34);
+    font-size: 30px;
+}
